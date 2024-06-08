@@ -1,0 +1,267 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717806630388311, "dur":3401, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717806630391746, "dur":63, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717806630391815, "dur":1696, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717806630393512, "dur":62734, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717806630456312, "dur":460, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717806630391778, "dur":1750, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717806630393531, "dur":1607, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717806630395700, "dur":203, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1717806630395906, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Win64/Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717806630396635, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630396949, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630397388, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630397627, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630397817, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630398538, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630398604, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/novalabs/Documents/Pos/projetos/DM117/DM117-TESTE/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630398764, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/novalabs/Documents/Pos/projetos/DM117/DM117-TESTE/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630398869, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/novalabs/Documents/Pos/projetos/DM117/DM117-TESTE/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630398987, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/novalabs/Documents/Pos/projetos/DM117/DM117-TESTE/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630399193, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/novalabs/Documents/Pos/projetos/DM117/DM117-TESTE/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630399455, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/novalabs/Documents/Pos/projetos/DM117/DM117-TESTE/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630399556, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/novalabs/Documents/Pos/projetos/DM117/DM117-TESTE/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630399828, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630400067, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630400394, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630400538, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717806630400899, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717806630395905, "dur":5250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717806630401250, "dur":1777, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717806630403246, "dur":52073, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717806630456035, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1717806630391787, "dur":1751, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717806630393561, "dur":1135, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717806630394696, "dur":177, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717806630394873, "dur":286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717806630395942, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1717806630396786, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1717806630397385, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630397385, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630397742, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630398428, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630398891, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630399360, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630399360, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630399603, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630400227, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630400814, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630401353, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630401782, "dur":300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630402285, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630402852, "dur":387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630403468, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717806630403719, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630404591, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630405097, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717806630405407, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630406046, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630406588, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630407306, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717806630408283, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717806630409133, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1717806630410005, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1717806630410296, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1717806630410927, "dur":45307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717806630391787, "dur":1765, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717806630393558, "dur":1218, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717806630394776, "dur":398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717806630395690, "dur":460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1717806630396249, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1717806630396464, "dur":411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1717806630397008, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717806630397006, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717806630397466, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717806630397948, "dur":849, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717806630397948, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717806630398900, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717806630399757, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630400340, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630400878, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630401375, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630401895, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630402468, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630403046, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630403648, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630404307, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630404307, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630404514, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630405383, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630406027, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630406630, "dur":352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630407318, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717806630408393, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1717806630409111, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717806630409178, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717806630409388, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717806630410255, "dur":45953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717806630391800, "dur":1788, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717806630393592, "dur":1237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717806630394829, "dur":329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717806630395158, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1717806630396374, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1717806630396924, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717806630397444, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717806630398081, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1717806630398425, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1717806630399165, "dur":320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630399652, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630400316, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630400868, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630401437, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630402054, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630402453, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630403111, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630404086, "dur":449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630404635, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630405469, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630406156, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630406720, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630407120, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630407119, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630407408, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717806630408605, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1717806630409465, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1717806630410357, "dur":45842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717806630391795, "dur":1770, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717806630393568, "dur":1232, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717806630394801, "dur":379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717806630395769, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717806630396341, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1717806630396341, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1717806630396700, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1717806630397200, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717806630397199, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717806630397562, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717806630398124, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1717806630398124, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1717806630398280, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1717806630398936, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630399658, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630400309, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630400790, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630401322, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630401840, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630402346, "dur":333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630402864, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630403697, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630404281, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630404280, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630404352, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630405044, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630405603, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630405602, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630405670, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717806630405851, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630406409, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630407061, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717806630408190, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1717806630409160, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1717806630410104, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717806630410323, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1717806630410937, "dur":45265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717806630391802, "dur":1796, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717806630393600, "dur":1216, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717806630394816, "dur":331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717806630395418, "dur":120, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1717806630395613, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1717806630395873, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717806630395939, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1717806630396775, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1717806630397348, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1717806630397774, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1717806630398449, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630398894, "dur":366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630399278, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630399277, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630399392, "dur":446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630400200, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630400788, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630401353, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630401832, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630402375, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630402990, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630403586, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630403585, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630403842, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630404537, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630404536, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630404789, "dur":414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630405735, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630406338, "dur":333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630406957, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717806630407617, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1717806630407866, "dur":85, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717806630408117, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1717806630408633, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1717806630409295, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1717806630410190, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717806630410346, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1717806630410949, "dur":45263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717806630391806, "dur":1797, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717806630393607, "dur":1222, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717806630394829, "dur":327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717806630395158, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1717806630395157, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1717806630396526, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1717806630397035, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717806630397450, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717806630397926, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630397925, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630398227, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630398852, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630399251, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630399251, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630399358, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630399903, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630400531, "dur":366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630401233, "dur":306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630401751, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630402292, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630402829, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630403662, "dur":525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630404522, "dur":415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630405338, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630405861, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717806630405993, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630406541, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630407028, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717806630407601, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717806630407735, "dur":183, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717806630408108, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717806630408705, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1717806630409308, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717806630409888, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717806630410454, "dur":45785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717806630391812, "dur":1797, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717806630393609, "dur":1137, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717806630394746, "dur":427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717806630395692, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1717806630396430, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717806630396714, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717806630397219, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1717806630397581, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1717806630398440, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630399068, "dur":377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630399604, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630400274, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630400847, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630401431, "dur":376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630402021, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630402610, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630403304, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630404041, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630404040, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630404371, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630405074, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630405974, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630406481, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630407207, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717806630408287, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717806630409095, "dur":78, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717806630409304, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1717806630410211, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MARS/MARS/MARS/DM117-MARS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1717806630410396, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MARS/MARS/MARS/DM117-MARS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1717806630410969, "dur":45285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717806630457622, "dur":199, "ph":"X", "name": "ProfilerWriteOutput" }
+,
