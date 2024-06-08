@@ -6,5 +6,3 @@ As cenas e os arquivos principais estao dentro da pasta Assets/Mars Landscape 3D
 Alguns Scripts estao dentro da pasta Assets/Scripts
 
 Ignore o arquivo 1.txt era apenas um teste, mas nao consegui remover.
-
-MARS WINDOWS - é a pasta que contem o executavel.
